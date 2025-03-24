@@ -7,17 +7,19 @@ import os
 app = FastAPI()
 
 # Twitter API credentials
-API_KEY = os.environ.get("API_KEY", "V9QH53br0qjV94DfTjGgxeeGX")
-API_SECRET = os.environ.get("API_SECRET", "tQKwkUDBDpuBdNw9YGjOCzN7ezMaNewFXnKwWPlBE5JyOpAkmr")
-ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN", "1902443596734984196-F9yGBsMcaLxKKbl1t8jhD0Kq0wJsbX")
-ACCESS_TOKEN_SECRET = os.environ.get("ACCESS_TOKEN_SECRET", "f7Tfp96PNPD8bKGOguDuTT6EwS2uBboWrrpZHKFIaA6rE")
+API_KEY = os.environ.get("API_KEY", "")
+API_SECRET = os.environ.get("API_SECRET", "")
+ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN", "")
+ACCESS_TOKEN_SECRET = os.environ.get("ACCESS_TOKEN_SECRET", "")
 
-# Set up Twitter client
+# Set up Twitter client using tweepy.Client for v2 API
 def get_twitter_client():
-    auth = tweepy.OAuth1UserHandler(
-        API_KEY, API_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
+    return tweepy.Client(
+        consumer_key=API_KEY,
+        consumer_secret=API_SECRET,
+        access_token=ACCESS_TOKEN,
+        access_token_secret=ACCESS_TOKEN_SECRET
     )
-    return tweepy.API(auth)
 
 # Set up SQLite database
 def init_db():
@@ -44,14 +46,14 @@ def add_problem(problem: str, pain: int, reach: str):
     conn.close()
     return {"status": "Problem stored—let's crush it!"}
 
-# Tweet a problem
+# Tweet a problem using X API v2
 @app.post("/tweet_hunt")
 def tweet_hunt(problem: str):
     try:
         client = get_twitter_client()
         tweet = f"GrokBeast Hunt: {problem} #GrokBeast #ProblemHunting"
-        client.update_status(tweet)
-        return {"status": "Tweet sent successfully!", "tweet": tweet}
+        response = client.create_tweet(text=tweet)
+        return {"status": "Tweet sent successfully!", "tweet": tweet, "response": response}
     except Exception as e:
         return {"status": "Error sending tweet", "error": str(e)}
 
