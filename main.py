@@ -3,7 +3,8 @@ from datetime import datetime
 import tweepy
 import os
 import random
-from supabase import create_client, Client
+import requests
+import json
 from typing import List, Dict, Any
 
 app = FastAPI()
@@ -16,9 +17,6 @@ ACCESS_TOKEN_SECRET = os.environ.get("ACCESS_TOKEN_SECRET", "")
 SUPABASE_URL = os.environ.get("SUPABASE_URL", "https://skynphgdtruemvqfptxd.supabase.co")
 SUPABASE_KEY = os.environ.get("SUPABASE_KEY", "")
 
-# Initialize Supabase client
-supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
-
 # Set up Twitter client using tweepy.Client for v2 API
 def get_twitter_client():
     return tweepy.Client(
@@ -27,6 +25,29 @@ def get_twitter_client():
         access_token=ACCESS_TOKEN,
         access_token_secret=ACCESS_TOKEN_SECRET
     )
+
+# Supabase REST API helper
+def supabase_request(method, path, data=None):
+    url = f"{SUPABASE_URL}/rest/v1/{path}"
+    headers = {
+        "apikey": SUPABASE_KEY,
+        "Authorization": f"Bearer {SUPABASE_KEY}",
+        "Content-Type": "application/json",
+        "Prefer": "return=representation"
+    }
+    
+    if method == "GET":
+        response = requests.get(url, headers=headers)
+    elif method == "POST":
+        response = requests.post(url, headers=headers, json=data)
+    else:
+        raise ValueError(f"Unsupported method: {method}")
+        
+    if response.status_code >= 400:
+        raise HTTPException(status_code=response.status_code, 
+                           detail=f"Supabase API error: {response.text}")
+    
+    return response.json()
 
 # Root endpoint—proof I'm alive
 @app.get("/")
@@ -38,14 +59,15 @@ def root():
 def add_problem(problem: str, pain: int, reach: str):
     try:
         date = datetime.now().strftime("%Y-%m-%d")
-        data = supabase.table("problems").insert({
+        data = {
             "problem": problem,
             "pain": pain,
             "reach": reach,
             "date": date
-        }).execute()
+        }
         
-        return {"status": "Problem stored—let's crush it!", "data": data.data}
+        result = supabase_request("POST", "problems", data)
+        return {"status": "Problem stored—let's crush it!", "data": result}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to store problem: {str(e)}")
 
@@ -87,12 +109,14 @@ def hunt_problems(count: int = 1):
         try:
             # Store in Supabase
             date = datetime.now().strftime("%Y-%m-%d")
-            data = supabase.table("problems").insert({
+            data = {
                 "problem": problem_data["problem"],
                 "pain": problem_data["pain"],
                 "reach": problem_data["reach"],
                 "date": date
-            }).execute()
+            }
+            
+            supabase_result = supabase_request("POST", "problems", data)
             
             # Tweet the problem
             client = get_twitter_client()
