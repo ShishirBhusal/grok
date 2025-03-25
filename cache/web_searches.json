@@ -1,0 +1,64 @@
+{
+  "web_https://news.ycombinator.com/rss_2025-03-25": {
+    "problems": [
+      {
+        "problem": "Goblin.tools: simple, single-task tools to help neurodivergent people with tasks",
+        "source": "Web - Hacker News",
+        "url": "https://goblin.tools/",
+        "pain": 5.582201957702637,
+        "reach": 7,
+        "urgency": 9.596403730763889,
+        "trend": 0,
+        "score": 5.582201957702637,
+        "date": "2025-03-25"
+      },
+      {
+        "problem": "How to create value objects in Ruby \u2013 the idiomatic way",
+        "source": "Web - Hacker News",
+        "url": "https://allaboutcoding.ghinda.com/how-to-create-value-objects-in-ruby-the-idiomatic-way",
+        "pain": 4.818613052368164,
+        "reach": 7,
+        "urgency": 3.218602746064815,
+        "trend": 0,
+        "score": 4.818613052368164,
+        "date": "2025-03-25"
+      }
+    ],
+    "timestamp": "2025-03-25T00:50:52.363370"
+  },
+  "web_https://www.producthunt.com/feed_2025-03-25": {
+    "problems": [],
+    "timestamp": "2025-03-25T00:50:52.741560"
+  },
+  "web_https://www.indiehackers.com/feed_2025-03-25": {
+    "problems": [],
+    "timestamp": "2025-03-25T00:50:54.285612"
+  },
+  "web_https://feeds.feedburner.com/venturebeat/SZYF_2025-03-25": {
+    "problems": [
+      {
+        "problem": "The issues game developers are facing in 2025 | IGDA interview",
+        "source": "Web - VentureBeat",
+        "url": "https://venturebeat.com/games/the-issues-game-developers-are-facing-in-2025-igda-interview/",
+        "pain": 5.454525470733643,
+        "reach": 7,
+        "urgency": 9.70007960210648,
+        "trend": 0,
+        "score": 5.454525470733643,
+        "date": "2025-03-25"
+      },
+      {
+        "problem": "The high- and low-level context behind Nvidia CEO Jensen Huang\u2019s GTC 2025 keynote | Dion Harris interview",
+        "source": "Web - VentureBeat",
+        "url": "https://venturebeat.com/games/the-high-and-low-level-context-behind-nvidia-ceo-jensen-huangs-gtc-2025-keynote-dion-harris-interview/",
+        "pain": 5.653773307800293,
+        "reach": 7,
+        "urgency": 9.533412884652778,
+        "trend": 0,
+        "score": 5.653773307800293,
+        "date": "2025-03-25"
+      }
+    ],
+    "timestamp": "2025-03-25T00:50:56.564377"
+  }
+}

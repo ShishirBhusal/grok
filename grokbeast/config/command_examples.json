@@ -1,0 +1,49 @@
+{
+    "hunt_problems": {
+        "basic": {
+            "type": "hunt_problems",
+            "params": {
+                "sources": ["reddit", "web"],
+                "count": 3
+            }
+        },
+        "with_tweet": {
+            "type": "hunt_problems",
+            "params": {
+                "sources": ["reddit", "web"],
+                "count": 3,
+                "should_tweet": true
+            }
+        },
+        "reddit_only": {
+            "type": "hunt_problems",
+            "params": {
+                "sources": ["reddit"],
+                "count": 5
+            }
+        }
+    },
+    "tweet_problem": {
+        "basic": {
+            "type": "tweet_problem",
+            "params": {
+                "problem": "Example problem description"
+            }
+        }
+    },
+    "status": {
+        "basic": {
+            "type": "status",
+            "params": {}
+        }
+    },
+    "shell": {
+        "basic": {
+            "type": "shell",
+            "params": {
+                "command": "echo 'Hello World'",
+                "capture_output": true
+            }
+        }
+    }
+} 

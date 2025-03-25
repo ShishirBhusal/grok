@@ -1,0 +1,27 @@
+{
+  "problems": [
+    {
+      "problem": "I need a better way to track my personal finances without giving my data to big companies.\"",
+      "pain": 9,
+      "reach": "Consumer",
+      "source": "reddit",
+      "tweet": "Problem spotted: I need a better way to track my personal finances without giving my data to big companies.\". Pain level: 9/10. Does this resonate with other Consumer folks? #GrokBeast"
+    },
+    {
+      "problem": "Reddit users are discussing these pain points:",
+      "pain": 8,
+      "reach": "SMB",
+      "source": "reddit",
+      "tweet": "Reddit users are discussing these pain points: - this affects many SMB users daily. What's your experience with this issue? #GrokBeast"
+    },
+    {
+      "problem": "I can't find a good way to organize my cloud storage across different providers.\"",
+      "pain": 7,
+      "reach": "SMB",
+      "source": "reddit",
+      "tweet": "I can't find a good way to organize my cloud storage across different providers.\" - this affects many SMB users daily. What's your experience with this issue? #GrokBeast"
+    }
+  ],
+  "duration_seconds": 0.0,
+  "model_used": "gpt2"
+}

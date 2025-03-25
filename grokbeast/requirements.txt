@@ -1,0 +1,7 @@
+flask>=2.0.0
+transformers>=4.30.0
+torch>=2.0.0
+requests>=2.28.0
+python-dotenv>=0.19.0
+bitsandbytes>=0.41.0  # Optional, for 4-bit quantization
+accelerate>=0.20.0    # Optional, for better model loading 

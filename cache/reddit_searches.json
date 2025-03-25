@@ -1,0 +1,249 @@
+{
+  "reddit_1jimyk6": {
+    "problem": {
+      "problem": "What\u2019s Your Biggest Challenge as a Founder Right Now? (I will not Promote)",
+      "source": "Reddit - r/startups",
+      "url": "https://reddit.com/r/startups/comments/1jimyk6/whats_your_biggest_challenge_as_a_founder_right/",
+      "pain": 6.0100226402282715,
+      "reach": 3.066666666666667,
+      "urgency": 8.072539655615886,
+      "trend": 0,
+      "score": 6.0100226402282715,
+      "date": "2025-03-25",
+      "raw_data": {
+        "upvotes": 14,
+        "comments": 32,
+        "created_utc": 1742809834.0
+      }
+    },
+    "timestamp": "2025-03-25T00:50:40.543692"
+  },
+  "reddit_1jillf0": {
+    "problem": {
+      "problem": "Struggling to Find Talented Startup Devs in Europe \u2014 Where Do You Look? I will not promote",
+      "source": "Reddit - r/startups",
+      "url": "https://reddit.com/r/startups/comments/1jillf0/struggling_to_find_talented_startup_devs_in/",
+      "pain": 5.9709601402282715,
+      "reach": 5.0,
+      "urgency": 7.693602795595372,
+      "trend": 0,
+      "score": 5.9709601402282715,
+      "date": "2025-03-25",
+      "raw_data": {
+        "upvotes": 15,
+        "comments": 60,
+        "created_utc": 1742803286.0
+      }
+    },
+    "timestamp": "2025-03-25T00:50:40.545695"
+  },
+  "reddit_1jimtqj": {
+    "problem": {
+      "problem": "What AI Tool Has Actually Helped Your Business?",
+      "source": "Reddit - r/entrepreneur",
+      "url": "https://reddit.com/r/Entrepreneur/comments/1jimtqj/what_ai_tool_has_actually_helped_your_business/",
+      "pain": 6.15776252746582,
+      "reach": 3.933333333333333,
+      "urgency": 8.036809039819572,
+      "trend": 0,
+      "score": 6.15776252746582,
+      "date": "2025-03-25",
+      "raw_data": {
+        "upvotes": 14,
+        "comments": 45,
+        "created_utc": 1742809218.0
+      }
+    },
+    "timestamp": "2025-03-25T00:50:41.945785"
+  },
+  "reddit_1jipmw2": {
+    "problem": {
+      "problem": "How building something which solves MY OWN issue made me actually finish the project",
+      "source": "Reddit - r/entrepreneur",
+      "url": "https://reddit.com/r/Entrepreneur/comments/1jipmw2/how_building_something_which_solves_my_own_issue/",
+      "pain": 5.783191204071045,
+      "reach": 1.1333333333333333,
+      "urgency": 8.652086470772822,
+      "trend": 0,
+      "score": 5.783191204071045,
+      "date": "2025-03-25",
+      "raw_data": {
+        "upvotes": 8,
+        "comments": 9,
+        "created_utc": 1742819850.0
+      }
+    },
+    "timestamp": "2025-03-25T00:50:41.948826"
+  },
+  "reddit_1jiuqt4": {
+    "problem": {
+      "problem": "Some of my clients think they have a retention problem. They don\u2019t...(Stop selling to anyone !) - Sharing my feedback",
+      "source": "Reddit - r/entrepreneur",
+      "url": "https://reddit.com/r/Entrepreneur/comments/1jiuqt4/some_of_my_clients_think_they_have_a_retention/",
+      "pain": 5.485093593597412,
+      "reach": 0.13333333333333333,
+      "urgency": 9.435708979972535,
+      "trend": 0,
+      "score": 5.485093593597412,
+      "date": "2025-03-25",
+      "raw_data": {
+        "upvotes": 1,
+        "comments": 1,
+        "created_utc": 1742833391.0
+      }
+    },
+    "timestamp": "2025-03-25T00:50:41.950065"
+  },
+  "reddit_1jiy0gv": {
+    "problem": {
+      "problem": "Help, My Wifi Driver is now missing",
+      "source": "Reddit - r/techsupport",
+      "url": "https://reddit.com/r/techsupport/comments/1jiy0gv/help_my_wifi_driver_is_now_missing/",
+      "pain": 5.990976810455322,
+      "reach": 0.8,
+      "urgency": 9.882213254079774,
+      "trend": 0,
+      "score": 5.990976810455322,
+      "date": "2025-03-25",
+      "raw_data": {
+        "upvotes": 2,
+        "comments": 10,
+        "created_utc": 1742841109.0
+      }
+    },
+    "timestamp": "2025-03-25T00:50:44.357969"
+  },
+  "reddit_1jiyhb4": {
+    "problem": {
+      "problem": "Lagging issues",
+      "source": "Reddit - r/techsupport",
+      "url": "https://reddit.com/r/techsupport/comments/1jiyhb4/lagging_issues/",
+      "pain": 5.847801685333252,
+      "reach": 0.06666666666666667,
+      "urgency": 9.945465366059432,
+      "trend": 0,
+      "score": 5.847801685333252,
+      "date": "2025-03-25",
+      "raw_data": {
+        "upvotes": 1,
+        "comments": 0,
+        "created_utc": 1742842202.0
+      }
+    },
+    "timestamp": "2025-03-25T00:50:44.360751"
+  },
+  "reddit_1jiy9ff": {
+    "problem": {
+      "problem": "KVM struggles to reliably display image on monitors when switching input sources, despite working perfectly once connected. Troubleshooting help would be appreciated!",
+      "source": "Reddit - r/techsupport",
+      "url": "https://reddit.com/r/techsupport/comments/1jiy9ff/kvm_struggles_to_reliably_display_image_on/",
+      "pain": 5.641200065612793,
+      "reach": 0.06666666666666667,
+      "urgency": 9.915893475021477,
+      "trend": 0,
+      "score": 5.641200065612793,
+      "date": "2025-03-25",
+      "raw_data": {
+        "upvotes": 1,
+        "comments": 0,
+        "created_utc": 1742841691.0
+      }
+    },
+    "timestamp": "2025-03-25T00:50:44.363843"
+  },
+  "reddit_1jixuk5": {
+    "problem": {
+      "problem": "Help Accessing Friend's SSD",
+      "source": "Reddit - r/techsupport",
+      "url": "https://reddit.com/r/techsupport/comments/1jixuk5/help_accessing_friends_ssd/",
+      "pain": 5.414617538452148,
+      "reach": 0.26666666666666666,
+      "urgency": 9.859643296083366,
+      "trend": 0,
+      "score": 5.414617538452148,
+      "date": "2025-03-25",
+      "raw_data": {
+        "upvotes": 1,
+        "comments": 3,
+        "created_utc": 1742840719.0
+      }
+    },
+    "timestamp": "2025-03-25T00:50:44.365766"
+  },
+  "reddit_1jitg2g": {
+    "problem": {
+      "problem": "I'm trying to replicate this effect as a newbie web designer for my project, plz help.",
+      "source": "Reddit - r/webdev",
+      "url": "https://reddit.com/r/webdev/comments/1jitg2g/im_trying_to_replicate_this_effect_as_a_newbie/",
+      "pain": 5.977640628814697,
+      "reach": 0.8,
+      "urgency": 9.253305515633137,
+      "trend": 0,
+      "score": 5.977640628814697,
+      "date": "2025-03-25",
+      "raw_data": {
+        "upvotes": 3,
+        "comments": 9,
+        "created_utc": 1742830243.0
+      }
+    },
+    "timestamp": "2025-03-25T00:50:45.881771"
+  },
+  "reddit_1jgjuhz": {
+    "problem": {
+      "problem": "Deep-ML (Leetcode for machine learning) New Feature: Break Down Problems into Simpler Steps!",
+      "source": "Reddit - r/datascience",
+      "url": "https://reddit.com/r/datascience/comments/1jgjuhz/deepml_leetcode_for_machine_learning_new_feature/",
+      "pain": 4.638701915740967,
+      "reach": 1.3333333333333333,
+      "urgency": 0,
+      "trend": 0,
+      "score": 4.638701915740967,
+      "date": "2025-03-25",
+      "raw_data": {
+        "upvotes": 12,
+        "comments": 8,
+        "created_utc": 1742571823.0
+      }
+    },
+    "timestamp": "2025-03-25T00:50:47.794703"
+  },
+  "reddit_1jiqweu": {
+    "problem": {
+      "problem": "Yuval Harari: \"The one thing everyone should know is AI is not a tool. A hammer is a tool, an atom bomb is a tool- it\u2019s your choice to bomb a city. But we already have AI weapons making decisions by themselves. An atom bomb can't invent the hydrogen bomb, but AIs can invent new weapons and new AIs.\"",
+      "source": "Reddit - r/artificial",
+      "url": "https://reddit.com/r/artificial/comments/1jiqweu/yuval_harari_the_one_thing_everyone_should_know/",
+      "pain": 6.305212497711182,
+      "reach": 3.3333333333333335,
+      "urgency": 8.86810350858227,
+      "trend": 0,
+      "score": 6.305212497711182,
+      "date": "2025-03-25",
+      "raw_data": {
+        "upvotes": 0,
+        "comments": 50,
+        "created_utc": 1742823592.0
+      }
+    },
+    "timestamp": "2025-03-25T00:50:51.175407"
+  },
+  "reddit_1jgsf11": {
+    "problem": {
+      "problem": "The Unbelievable Scale of AI\u2019s Pirated-Books Problem",
+      "source": "Reddit - r/artificial",
+      "url": "https://reddit.com/r/artificial/comments/1jgsf11/the_unbelievable_scale_of_ais_piratedbooks_problem/",
+      "pain": 4.1453657150268555,
+      "reach": 9.733333333333333,
+      "urgency": 0,
+      "trend": 0,
+      "score": 4.1453657150268555,
+      "date": "2025-03-25",
+      "raw_data": {
+        "upvotes": 72,
+        "comments": 74,
+        "created_utc": 1742593434.0
+      }
+    },
+    "timestamp": "2025-03-25T00:50:51.177361"
+  }
+}

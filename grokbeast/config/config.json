@@ -1,0 +1,94 @@
+{
+  "model": {
+    "name": "gpt2",
+    "max_length": 512,
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "use_gpu": true,
+    "max_vram_mb": 6000
+  },
+  "hunting": {
+    "sources": ["reddit", "web"],
+    "max_problems": 3,
+    "min_pain_level": 5,
+    "max_tweets_per_day": 45,
+    "hunt_interval_minutes": 60
+  },
+  "web": {
+    "host": "0.0.0.0",
+    "port": 5000,
+    "debug": false
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "grok.log",
+    "max_size_mb": 10,
+    "backup_count": 5
+  },
+  "cache": {
+    "dir": "cache",
+    "max_size_mb": 100,
+    "cleanup_interval_hours": 24
+  },
+  "hunt_interval_minutes": 60,
+  "max_tweets_per_day": 45,
+  "supabase_url": "https://skynphgdtruemvqfptxd.supabase.co",
+  "supabase_key": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNreW5waGdkdHJ1ZW12cWZwdHhkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDI4MDU5OTUsImV4cCI6MjA1ODM4MTk5NX0.fHCUZH4Tu3eC_aDAjhS_YqPl_pLxWifYy6gAz1BssPg",
+  "twitter_api_key": "9GVGobE1AvDp6Va5XVmIfuH5m",
+  "twitter_api_secret": "Htopyf3CLxRfYLahYldVcAPTCzhURMjer1VExOg7bQjqH0eM1T",
+  "twitter_access_token": "1902443596734984196-Q7BVGKiQPYhspxJGf5wvrNhIjQPQP6",
+  "twitter_access_token_secret": "mWOT02wpKeTy1JPFM9i0IHCxfm2wWwmq5fBfXV0A9v6bW",
+  "reddit_client_id": "lCwzCYFPeqXZVlM1CeUUUg",
+  "reddit_client_secret": "2t5_zLqjow6ts6IF3RP43OwuRMzYrQ",
+  "reddit_user_agent": "GrokBeast/1.0",
+  "min_hunt_interval": 15,
+  "max_hunt_interval": 180,
+  "adaptive_interval": true,
+  "use_gpu_acceleration": true,
+  "use_selenium_fallback": true,
+  "use_autogen_swarm": true,
+  "cache_ttl_minutes": 60,
+  "ngrok_auth_token": "",
+  "chrome_driver_path": "",
+  "problem_sources": {
+    "reddit": {
+      "enabled": true,
+      "subreddits": [
+        "startups",
+        "entrepreneur",
+        "programming",
+        "techsupport",
+        "webdev",
+        "datascience",
+        "machinelearning",
+        "artificial"
+      ]
+    },
+    "x": {
+      "enabled": true,
+      "search_terms": [
+        "looking for solution",
+        "need help with",
+        "problem with",
+        "struggling with",
+        "anyone solved",
+        "how to fix"
+      ]
+    },
+    "web": {
+      "enabled": true,
+      "rss_feeds": [
+        "https://news.ycombinator.com/rss",
+        "https://www.producthunt.com/feed",
+        "https://www.indiehackers.com/feed",
+        "https://feeds.feedburner.com/venturebeat/SZYF"
+      ]
+    }
+  },
+  "agent_swarm": {
+    "model_id": "microsoft/phi-2",
+    "cache_dir": "./grokbeast/cache",
+    "auto_tweet": true,
+    "count": 3
+  }
+}

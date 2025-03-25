@@ -1,0 +1,27 @@
+{
+  "problems": [
+    {
+      "problem": "Reddit users are discussing these pain points:",
+      "pain": 9,
+      "reach": "Enterprise",
+      "source": "reddit",
+      "tweet": "Are you tired of Reddit users are discussing these pain points:? We think this is a major pain point for Enterprise users. What solutions have you found? #GrokBeast"
+    },
+    {
+      "problem": "I need a better way to track my personal finances without giving my data to big companies.\"",
+      "pain": 9,
+      "reach": "Consumer",
+      "source": "reddit",
+      "tweet": "Problem spotted: I need a better way to track my personal finances without giving my data to big companies.\". Pain level: 9/10. Does this resonate with other Consumer folks? #GrokBeast"
+    },
+    {
+      "problem": "Small business owners need simpler accounting software",
+      "pain": 9,
+      "reach": "Enterprise",
+      "source": "web",
+      "tweet": "Small business owners need simpler accounting software - this affects many Enterprise users daily. What's your experience with this issue? #GrokBeast"
+    }
+  ],
+  "duration_seconds": 0.0,
+  "model_used": "gpt2"
+}

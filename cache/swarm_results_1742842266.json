@@ -1,0 +1,20 @@
+{
+  "problems": [
+    {
+      "problem": "No clear problems found",
+      "pain": 5,
+      "reach": "General",
+      "source": "reddit",
+      "tweet": ""
+    },
+    {
+      "problem": "No clear problems found",
+      "pain": 5,
+      "reach": "General",
+      "source": "web",
+      "tweet": ""
+    }
+  ],
+  "duration_seconds": 955.71,
+  "model_used": "gpt2"
+}
