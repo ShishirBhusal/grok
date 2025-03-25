@@ -23,8 +23,8 @@ A powerful problem-hunting AI assistant that uses local language models to help 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/grokbeast.git
-cd grokbeast
+git clone https://github.com/shishirbhusal/grok.git
+cd grok/grokbeast
 ```
 
 2. Create and activate a virtual environment:
@@ -99,27 +99,28 @@ If you want to use Twitter integration:
 ### Project Structure
 
 ```
-grokbeast/
-├── src/                    # Source code
-│   ├── __init__.py
-│   ├── agent_model.py     # AI model implementation
-│   └── chat_command_generator.py  # Command handling
-├── config/                # Configuration files
-│   ├── config.json       # Main configuration
-│   └── command_examples.json  # Example commands
-├── scripts/              # Start scripts
-│   ├── start_grok3.bat   # Windows start script
-│   ├── start_grok3.sh    # Linux/Mac start script
-│   └── start_grok3_fallback.bat  # Windows fallback mode
-├── static/              # Static files (CSS, JS, etc.)
-├── templates/           # HTML templates
-├── tests/              # Test files
-├── .env.example        # Example environment variables
-├── .gitignore
-├── LICENSE
-├── README.md
-├── requirements.txt
-└── setup.py
+grok/
+├── grokbeast/           # Main package directory
+│   ├── src/            # Source code
+│   │   ├── __init__.py
+│   │   ├── agent_model.py     # AI model implementation
+│   │   └── chat_command_generator.py  # Command handling
+│   ├── config/         # Configuration files
+│   │   ├── config.json       # Main configuration
+│   │   └── command_examples.json  # Example commands
+│   ├── scripts/        # Start scripts
+│   │   ├── start_grok3.bat   # Windows start script
+│   │   ├── start_grok3.sh    # Linux/Mac start script
+│   │   └── start_grok3_fallback.bat  # Windows fallback mode
+│   ├── static/        # Static files (CSS, JS, etc.)
+│   ├── templates/     # HTML templates
+│   ├── tests/        # Test files
+│   ├── .env.example  # Example environment variables
+│   ├── .gitignore
+│   ├── LICENSE
+│   ├── requirements.txt
+│   └── setup.py
+└── README.md          # Project documentation
 ```
 
 ### Running Tests
@@ -144,4 +145,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Built with [Hugging Face Transformers](https://github.com/huggingface/transformers)
 - Inspired by Grok AI
-- Created by Stark 
+- Created by Shishir Bhusal 
